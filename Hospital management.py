@@ -3,7 +3,7 @@ from tkinter import  *
 import random as rd
 import datetime 
 import mysql.connector as sqltor
-con=sqltor.connect(host="localhost",user="",password="12345678")
+con=sqltor.connect(host="localhost",user="root",password="20051011")
 cur=con.cursor()
 cur = con.cursor(buffered=True) 
 cur.execute("create database if not exists hello")
